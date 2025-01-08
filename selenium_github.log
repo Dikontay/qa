@@ -1,0 +1,386 @@
+2024-12-30 19:35:15,586 - INFO - Initialized WebDriver and maximized the window.
+2024-12-30 19:35:17,359 - INFO - Opened GitHub homepage.
+2024-12-30 19:35:17,362 - INFO - Set implicit wait to 10 seconds.
+2024-12-30 19:35:17,363 - CRITICAL - Critical error occurred: name 'By' is not defined
+2024-12-30 19:35:17,452 - INFO - Closed the browser and ended the script.
+2024-12-30 19:39:01,676 - INFO - Initialized WebDriver and maximized the window.
+2024-12-30 19:39:03,250 - INFO - Opened GitHub homepage.
+2024-12-30 19:39:03,256 - INFO - Set implicit wait to 10 seconds.
+2024-12-30 19:39:03,259 - CRITICAL - Critical error occurred: name 'By' is not defined
+2024-12-30 19:39:03,341 - INFO - Closed the browser and ended the script.
+2024-12-30 19:39:39,543 - INFO - Initialized WebDriver and maximized the window.
+2024-12-30 19:39:41,445 - INFO - Opened GitHub homepage.
+2024-12-30 19:39:41,446 - INFO - Set implicit wait to 10 seconds.
+2024-12-30 19:39:51,473 - CRITICAL - Critical error occurred: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="q"]"}
+  (Session info: chrome=131.0.6778.205); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102643184 cxxbridge1$str$ptr + 3626716
+1   chromedriver                        0x000000010263b9d4 cxxbridge1$str$ptr + 3596076
+2   chromedriver                        0x00000001020a8968 cxxbridge1$string$len + 89228
+3   chromedriver                        0x00000001020ecd50 cxxbridge1$string$len + 368756
+4   chromedriver                        0x00000001021265b4 cxxbridge1$string$len + 604376
+5   chromedriver                        0x00000001020e1568 cxxbridge1$string$len + 321676
+6   chromedriver                        0x00000001020e21b8 cxxbridge1$string$len + 324828
+7   chromedriver                        0x000000010260e9ac cxxbridge1$str$ptr + 3411716
+8   chromedriver                        0x0000000102611ccc cxxbridge1$str$ptr + 3424804
+9   chromedriver                        0x00000001025f586c cxxbridge1$str$ptr + 3308996
+10  chromedriver                        0x000000010261258c cxxbridge1$str$ptr + 3427044
+11  chromedriver                        0x00000001025e709c cxxbridge1$str$ptr + 3249652
+12  chromedriver                        0x000000010262c4b8 cxxbridge1$str$ptr + 3533328
+13  chromedriver                        0x000000010262c634 cxxbridge1$str$ptr + 3533708
+14  chromedriver                        0x000000010263b648 cxxbridge1$str$ptr + 3595168
+15  libsystem_pthread.dylib             0x000000018e41d034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018e417e3c thread_start + 8
+
+2024-12-30 19:39:51,577 - INFO - Closed the browser and ended the script.
+2024-12-30 19:41:15,211 - INFO - Initialized WebDriver and maximized the window.
+2024-12-30 19:41:17,586 - INFO - Opened GitHub homepage.
+2024-12-30 19:41:17,590 - INFO - Set implicit wait to 10 seconds.
+2024-12-30 19:41:27,595 - CRITICAL - Critical error occurred: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="q"]"}
+  (Session info: chrome=131.0.6778.205); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001034eb184 cxxbridge1$str$ptr + 3626716
+1   chromedriver                        0x00000001034e39d4 cxxbridge1$str$ptr + 3596076
+2   chromedriver                        0x0000000102f50968 cxxbridge1$string$len + 89228
+3   chromedriver                        0x0000000102f94d50 cxxbridge1$string$len + 368756
+4   chromedriver                        0x0000000102fce5b4 cxxbridge1$string$len + 604376
+5   chromedriver                        0x0000000102f89568 cxxbridge1$string$len + 321676
+6   chromedriver                        0x0000000102f8a1b8 cxxbridge1$string$len + 324828
+7   chromedriver                        0x00000001034b69ac cxxbridge1$str$ptr + 3411716
+8   chromedriver                        0x00000001034b9ccc cxxbridge1$str$ptr + 3424804
+9   chromedriver                        0x000000010349d86c cxxbridge1$str$ptr + 3308996
+10  chromedriver                        0x00000001034ba58c cxxbridge1$str$ptr + 3427044
+11  chromedriver                        0x000000010348f09c cxxbridge1$str$ptr + 3249652
+12  chromedriver                        0x00000001034d44b8 cxxbridge1$str$ptr + 3533328
+13  chromedriver                        0x00000001034d4634 cxxbridge1$str$ptr + 3533708
+14  chromedriver                        0x00000001034e3648 cxxbridge1$str$ptr + 3595168
+15  libsystem_pthread.dylib             0x000000018e41d034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018e417e3c thread_start + 8
+
+2024-12-30 19:41:27,687 - INFO - Closed the browser and ended the script.
+2024-12-30 19:56:18,849 - INFO - Initialized WebDriver and maximized the window.
+2024-12-30 19:56:20,625 - INFO - Opened GitHub homepage.
+2024-12-30 19:56:20,630 - INFO - Set implicit wait to 10 seconds.
+2024-12-30 19:56:20,630 - ERROR - Error during explicit wait for the search button: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not function
+2024-12-30 19:56:20,631 - CRITICAL - Critical error occurred: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not function
+2024-12-30 19:56:20,710 - INFO - Closed the browser and ended the script.
+2024-12-30 19:58:08,542 - INFO - Initialized WebDriver and maximized the window.
+2024-12-30 19:58:09,946 - INFO - Opened GitHub homepage.
+2024-12-30 19:58:09,949 - INFO - Set implicit wait to 10 seconds.
+2024-12-30 19:58:09,949 - ERROR - Error during explicit wait for the search button: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not function
+2024-12-30 19:58:09,953 - CRITICAL - Critical error occurred: selenium.webdriver.remote.webdriver.WebDriver.find_element() argument after * must be an iterable, not function
+2024-12-30 19:58:10,037 - INFO - Closed the browser and ended the script.
+2024-12-30 19:58:37,595 - INFO - Initialized WebDriver and maximized the window.
+2024-12-30 19:58:39,232 - INFO - Opened GitHub homepage.
+2024-12-30 19:58:39,233 - INFO - Set implicit wait to 10 seconds.
+2024-12-30 19:58:39,257 - INFO - Search button is clickable.
+2024-12-30 19:58:39,301 - INFO - Searching for repositories with query: selenium
+2024-12-30 19:58:39,558 - CRITICAL - Critical error occurred: 'NoneType' object has no attribute 'click'
+2024-12-30 19:58:39,644 - INFO - Closed the browser and ended the script.
+2024-12-30 20:00:39,595 - INFO - Initialized WebDriver and maximized the window.
+2024-12-30 20:00:41,479 - INFO - Opened GitHub homepage.
+2024-12-30 20:00:41,481 - INFO - Set implicit wait to 10 seconds.
+2024-12-30 20:00:41,501 - INFO - Search button is clickable.
+2024-12-30 20:00:41,550 - INFO - Searching for repositories with query: selenium
+2024-12-30 20:00:41,809 - ERROR - Error during fluent wait: Message: invalid argument: 'using' must be a string
+  (Session info: chrome=131.0.6778.205)
+Stacktrace:
+0   chromedriver                        0x000000010270f184 cxxbridge1$str$ptr + 3626716
+1   chromedriver                        0x00000001027079d4 cxxbridge1$str$ptr + 3596076
+2   chromedriver                        0x0000000102174968 cxxbridge1$string$len + 89228
+3   chromedriver                        0x00000001021b876c cxxbridge1$string$len + 367248
+4   chromedriver                        0x00000001021f25b4 cxxbridge1$string$len + 604376
+5   chromedriver                        0x00000001021ad568 cxxbridge1$string$len + 321676
+6   chromedriver                        0x00000001021ae1b8 cxxbridge1$string$len + 324828
+7   chromedriver                        0x00000001026da9ac cxxbridge1$str$ptr + 3411716
+8   chromedriver                        0x00000001026ddccc cxxbridge1$str$ptr + 3424804
+9   chromedriver                        0x00000001026c186c cxxbridge1$str$ptr + 3308996
+10  chromedriver                        0x00000001026de58c cxxbridge1$str$ptr + 3427044
+11  chromedriver                        0x00000001026b309c cxxbridge1$str$ptr + 3249652
+12  chromedriver                        0x00000001026f84b8 cxxbridge1$str$ptr + 3533328
+13  chromedriver                        0x00000001026f8634 cxxbridge1$str$ptr + 3533708
+14  chromedriver                        0x0000000102707648 cxxbridge1$str$ptr + 3595168
+15  libsystem_pthread.dylib             0x000000018e41d034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018e417e3c thread_start + 8
+
+2024-12-30 20:00:41,809 - CRITICAL - Critical error occurred: Message: invalid argument: 'using' must be a string
+  (Session info: chrome=131.0.6778.205)
+Stacktrace:
+0   chromedriver                        0x000000010270f184 cxxbridge1$str$ptr + 3626716
+1   chromedriver                        0x00000001027079d4 cxxbridge1$str$ptr + 3596076
+2   chromedriver                        0x0000000102174968 cxxbridge1$string$len + 89228
+3   chromedriver                        0x00000001021b876c cxxbridge1$string$len + 367248
+4   chromedriver                        0x00000001021f25b4 cxxbridge1$string$len + 604376
+5   chromedriver                        0x00000001021ad568 cxxbridge1$string$len + 321676
+6   chromedriver                        0x00000001021ae1b8 cxxbridge1$string$len + 324828
+7   chromedriver                        0x00000001026da9ac cxxbridge1$str$ptr + 3411716
+8   chromedriver                        0x00000001026ddccc cxxbridge1$str$ptr + 3424804
+9   chromedriver                        0x00000001026c186c cxxbridge1$str$ptr + 3308996
+10  chromedriver                        0x00000001026de58c cxxbridge1$str$ptr + 3427044
+11  chromedriver                        0x00000001026b309c cxxbridge1$str$ptr + 3249652
+12  chromedriver                        0x00000001026f84b8 cxxbridge1$str$ptr + 3533328
+13  chromedriver                        0x00000001026f8634 cxxbridge1$str$ptr + 3533708
+14  chromedriver                        0x0000000102707648 cxxbridge1$str$ptr + 3595168
+15  libsystem_pthread.dylib             0x000000018e41d034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018e417e3c thread_start + 8
+
+2024-12-30 20:00:41,902 - INFO - Closed the browser and ended the script.
+2024-12-30 20:04:38,303 - INFO - Initialized WebDriver and maximized the window.
+2024-12-30 20:04:39,926 - INFO - Opened GitHub homepage.
+2024-12-30 20:04:39,929 - INFO - Set implicit wait to 10 seconds.
+2024-12-30 20:04:39,947 - INFO - Search button is clickable.
+2024-12-30 20:04:39,988 - INFO - Searching for repositories with query: selenium
+2024-12-30 20:04:40,228 - ERROR - Error during fluent wait: Message: invalid argument: 'using' must be a string
+  (Session info: chrome=131.0.6778.205)
+Stacktrace:
+0   chromedriver                        0x000000010083b184 cxxbridge1$str$ptr + 3626716
+1   chromedriver                        0x00000001008339d4 cxxbridge1$str$ptr + 3596076
+2   chromedriver                        0x00000001002a0968 cxxbridge1$string$len + 89228
+3   chromedriver                        0x00000001002e476c cxxbridge1$string$len + 367248
+4   chromedriver                        0x000000010031e5b4 cxxbridge1$string$len + 604376
+5   chromedriver                        0x00000001002d9568 cxxbridge1$string$len + 321676
+6   chromedriver                        0x00000001002da1b8 cxxbridge1$string$len + 324828
+7   chromedriver                        0x00000001008069ac cxxbridge1$str$ptr + 3411716
+8   chromedriver                        0x0000000100809ccc cxxbridge1$str$ptr + 3424804
+9   chromedriver                        0x00000001007ed86c cxxbridge1$str$ptr + 3308996
+10  chromedriver                        0x000000010080a58c cxxbridge1$str$ptr + 3427044
+11  chromedriver                        0x00000001007df09c cxxbridge1$str$ptr + 3249652
+12  chromedriver                        0x00000001008244b8 cxxbridge1$str$ptr + 3533328
+13  chromedriver                        0x0000000100824634 cxxbridge1$str$ptr + 3533708
+14  chromedriver                        0x0000000100833648 cxxbridge1$str$ptr + 3595168
+15  libsystem_pthread.dylib             0x000000018e41d034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018e417e3c thread_start + 8
+
+2024-12-30 20:04:40,229 - CRITICAL - Critical error occurred: Message: invalid argument: 'using' must be a string
+  (Session info: chrome=131.0.6778.205)
+Stacktrace:
+0   chromedriver                        0x000000010083b184 cxxbridge1$str$ptr + 3626716
+1   chromedriver                        0x00000001008339d4 cxxbridge1$str$ptr + 3596076
+2   chromedriver                        0x00000001002a0968 cxxbridge1$string$len + 89228
+3   chromedriver                        0x00000001002e476c cxxbridge1$string$len + 367248
+4   chromedriver                        0x000000010031e5b4 cxxbridge1$string$len + 604376
+5   chromedriver                        0x00000001002d9568 cxxbridge1$string$len + 321676
+6   chromedriver                        0x00000001002da1b8 cxxbridge1$string$len + 324828
+7   chromedriver                        0x00000001008069ac cxxbridge1$str$ptr + 3411716
+8   chromedriver                        0x0000000100809ccc cxxbridge1$str$ptr + 3424804
+9   chromedriver                        0x00000001007ed86c cxxbridge1$str$ptr + 3308996
+10  chromedriver                        0x000000010080a58c cxxbridge1$str$ptr + 3427044
+11  chromedriver                        0x00000001007df09c cxxbridge1$str$ptr + 3249652
+12  chromedriver                        0x00000001008244b8 cxxbridge1$str$ptr + 3533328
+13  chromedriver                        0x0000000100824634 cxxbridge1$str$ptr + 3533708
+14  chromedriver                        0x0000000100833648 cxxbridge1$str$ptr + 3595168
+15  libsystem_pthread.dylib             0x000000018e41d034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018e417e3c thread_start + 8
+
+2024-12-30 20:04:40,314 - INFO - Closed the browser and ended the script.
+2024-12-30 20:05:04,746 - INFO - Initialized WebDriver and maximized the window.
+2024-12-30 20:05:06,745 - INFO - Opened GitHub homepage.
+2024-12-30 20:05:06,746 - INFO - Set implicit wait to 10 seconds.
+2024-12-30 20:05:06,765 - INFO - Search button is clickable.
+2024-12-30 20:05:06,805 - INFO - Searching for repositories with query: selenium
+2024-12-30 20:05:07,050 - ERROR - Error during fluent wait: Message: invalid argument: 'using' must be a string
+  (Session info: chrome=131.0.6778.205)
+Stacktrace:
+0   chromedriver                        0x00000001013bb184 cxxbridge1$str$ptr + 3626716
+1   chromedriver                        0x00000001013b39d4 cxxbridge1$str$ptr + 3596076
+2   chromedriver                        0x0000000100e20968 cxxbridge1$string$len + 89228
+3   chromedriver                        0x0000000100e6476c cxxbridge1$string$len + 367248
+4   chromedriver                        0x0000000100e9e5b4 cxxbridge1$string$len + 604376
+5   chromedriver                        0x0000000100e59568 cxxbridge1$string$len + 321676
+6   chromedriver                        0x0000000100e5a1b8 cxxbridge1$string$len + 324828
+7   chromedriver                        0x00000001013869ac cxxbridge1$str$ptr + 3411716
+8   chromedriver                        0x0000000101389ccc cxxbridge1$str$ptr + 3424804
+9   chromedriver                        0x000000010136d86c cxxbridge1$str$ptr + 3308996
+10  chromedriver                        0x000000010138a58c cxxbridge1$str$ptr + 3427044
+11  chromedriver                        0x000000010135f09c cxxbridge1$str$ptr + 3249652
+12  chromedriver                        0x00000001013a44b8 cxxbridge1$str$ptr + 3533328
+13  chromedriver                        0x00000001013a4634 cxxbridge1$str$ptr + 3533708
+14  chromedriver                        0x00000001013b3648 cxxbridge1$str$ptr + 3595168
+15  libsystem_pthread.dylib             0x000000018e41d034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018e417e3c thread_start + 8
+
+2024-12-30 20:05:07,050 - CRITICAL - Critical error occurred: Message: invalid argument: 'using' must be a string
+  (Session info: chrome=131.0.6778.205)
+Stacktrace:
+0   chromedriver                        0x00000001013bb184 cxxbridge1$str$ptr + 3626716
+1   chromedriver                        0x00000001013b39d4 cxxbridge1$str$ptr + 3596076
+2   chromedriver                        0x0000000100e20968 cxxbridge1$string$len + 89228
+3   chromedriver                        0x0000000100e6476c cxxbridge1$string$len + 367248
+4   chromedriver                        0x0000000100e9e5b4 cxxbridge1$string$len + 604376
+5   chromedriver                        0x0000000100e59568 cxxbridge1$string$len + 321676
+6   chromedriver                        0x0000000100e5a1b8 cxxbridge1$string$len + 324828
+7   chromedriver                        0x00000001013869ac cxxbridge1$str$ptr + 3411716
+8   chromedriver                        0x0000000101389ccc cxxbridge1$str$ptr + 3424804
+9   chromedriver                        0x000000010136d86c cxxbridge1$str$ptr + 3308996
+10  chromedriver                        0x000000010138a58c cxxbridge1$str$ptr + 3427044
+11  chromedriver                        0x000000010135f09c cxxbridge1$str$ptr + 3249652
+12  chromedriver                        0x00000001013a44b8 cxxbridge1$str$ptr + 3533328
+13  chromedriver                        0x00000001013a4634 cxxbridge1$str$ptr + 3533708
+14  chromedriver                        0x00000001013b3648 cxxbridge1$str$ptr + 3595168
+15  libsystem_pthread.dylib             0x000000018e41d034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018e417e3c thread_start + 8
+
+2024-12-30 20:05:07,139 - INFO - Closed the browser and ended the script.
+2024-12-30 20:06:22,058 - INFO - Initialized WebDriver and maximized the window.
+2024-12-30 20:06:23,545 - INFO - Opened GitHub homepage.
+2024-12-30 20:06:23,548 - INFO - Set implicit wait to 10 seconds.
+2024-12-30 20:06:23,572 - INFO - Search button is clickable.
+2024-12-30 20:06:23,613 - INFO - Searching for repositories with query: selenium
+2024-12-30 20:06:26,486 - INFO - Found element with fluent wait: 278k results
+ (179 ms)
+278k results
+2024-12-30 20:06:36,516 - ERROR - Error using ActionChains: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Why GitHub?')]"}
+  (Session info: chrome=131.0.6778.205); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100a77184 cxxbridge1$str$ptr + 3626716
+1   chromedriver                        0x0000000100a6f9d4 cxxbridge1$str$ptr + 3596076
+2   chromedriver                        0x00000001004dc968 cxxbridge1$string$len + 89228
+3   chromedriver                        0x0000000100520d50 cxxbridge1$string$len + 368756
+4   chromedriver                        0x000000010055a5b4 cxxbridge1$string$len + 604376
+5   chromedriver                        0x0000000100515568 cxxbridge1$string$len + 321676
+6   chromedriver                        0x00000001005161b8 cxxbridge1$string$len + 324828
+7   chromedriver                        0x0000000100a429ac cxxbridge1$str$ptr + 3411716
+8   chromedriver                        0x0000000100a45ccc cxxbridge1$str$ptr + 3424804
+9   chromedriver                        0x0000000100a2986c cxxbridge1$str$ptr + 3308996
+10  chromedriver                        0x0000000100a4658c cxxbridge1$str$ptr + 3427044
+11  chromedriver                        0x0000000100a1b09c cxxbridge1$str$ptr + 3249652
+12  chromedriver                        0x0000000100a604b8 cxxbridge1$str$ptr + 3533328
+13  chromedriver                        0x0000000100a60634 cxxbridge1$str$ptr + 3533708
+14  chromedriver                        0x0000000100a6f648 cxxbridge1$str$ptr + 3595168
+15  libsystem_pthread.dylib             0x000000018e41d034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018e417e3c thread_start + 8
+
+2024-12-30 20:06:36,517 - CRITICAL - Critical error occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Why GitHub?')]"}
+  (Session info: chrome=131.0.6778.205); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100a77184 cxxbridge1$str$ptr + 3626716
+1   chromedriver                        0x0000000100a6f9d4 cxxbridge1$str$ptr + 3596076
+2   chromedriver                        0x00000001004dc968 cxxbridge1$string$len + 89228
+3   chromedriver                        0x0000000100520d50 cxxbridge1$string$len + 368756
+4   chromedriver                        0x000000010055a5b4 cxxbridge1$string$len + 604376
+5   chromedriver                        0x0000000100515568 cxxbridge1$string$len + 321676
+6   chromedriver                        0x00000001005161b8 cxxbridge1$string$len + 324828
+7   chromedriver                        0x0000000100a429ac cxxbridge1$str$ptr + 3411716
+8   chromedriver                        0x0000000100a45ccc cxxbridge1$str$ptr + 3424804
+9   chromedriver                        0x0000000100a2986c cxxbridge1$str$ptr + 3308996
+10  chromedriver                        0x0000000100a4658c cxxbridge1$str$ptr + 3427044
+11  chromedriver                        0x0000000100a1b09c cxxbridge1$str$ptr + 3249652
+12  chromedriver                        0x0000000100a604b8 cxxbridge1$str$ptr + 3533328
+13  chromedriver                        0x0000000100a60634 cxxbridge1$str$ptr + 3533708
+14  chromedriver                        0x0000000100a6f648 cxxbridge1$str$ptr + 3595168
+15  libsystem_pthread.dylib             0x000000018e41d034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018e417e3c thread_start + 8
+
+2024-12-30 20:06:36,614 - INFO - Closed the browser and ended the script.
+2024-12-30 20:10:43,789 - INFO - Initialized WebDriver and maximized the window.
+2024-12-30 20:10:45,429 - INFO - Opened GitHub homepage.
+2024-12-30 20:10:45,433 - INFO - Set implicit wait to 10 seconds.
+2024-12-30 20:10:45,457 - INFO - Search button is clickable.
+2024-12-30 20:10:45,504 - INFO - Searching for repositories with query: selenium
+2024-12-30 20:10:48,310 - INFO - Found element with fluent wait: 278k results
+ (200 ms)
+278k results
+2024-12-30 20:10:48,319 - ERROR - Error hovering over the repository: Message: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression /html/body/div[1]/div[4]/main/react-app/div/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[4]/div/div/div[1]/div/div[1]/h3/div/div[2]/a')][1] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '/html/body/div[1]/div[4]/main/react-app/div/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[4]/div/div/div[1]/div/div[1]/h3/div/div[2]/a')][1]' is not a valid XPath expression."}
+  (Session info: chrome=131.0.6778.205); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+0   chromedriver                        0x0000000105573184 cxxbridge1$str$ptr + 3626716
+1   chromedriver                        0x000000010556b9d4 cxxbridge1$str$ptr + 3596076
+2   chromedriver                        0x0000000104fd8968 cxxbridge1$string$len + 89228
+3   chromedriver                        0x0000000104fdd84c cxxbridge1$string$len + 109424
+4   chromedriver                        0x0000000104fdf89c cxxbridge1$string$len + 117696
+5   chromedriver                        0x0000000104fdf944 cxxbridge1$string$len + 117864
+6   chromedriver                        0x000000010501ca94 cxxbridge1$string$len + 368056
+7   chromedriver                        0x00000001050565b4 cxxbridge1$string$len + 604376
+8   chromedriver                        0x0000000105011568 cxxbridge1$string$len + 321676
+9   chromedriver                        0x00000001050121b8 cxxbridge1$string$len + 324828
+10  chromedriver                        0x000000010553e9ac cxxbridge1$str$ptr + 3411716
+11  chromedriver                        0x0000000105541ccc cxxbridge1$str$ptr + 3424804
+12  chromedriver                        0x000000010552586c cxxbridge1$str$ptr + 3308996
+13  chromedriver                        0x000000010554258c cxxbridge1$str$ptr + 3427044
+14  chromedriver                        0x000000010551709c cxxbridge1$str$ptr + 3249652
+15  chromedriver                        0x000000010555c4b8 cxxbridge1$str$ptr + 3533328
+16  chromedriver                        0x000000010555c634 cxxbridge1$str$ptr + 3533708
+17  chromedriver                        0x000000010556b648 cxxbridge1$str$ptr + 3595168
+18  libsystem_pthread.dylib             0x000000018e41d034 _pthread_start + 136
+19  libsystem_pthread.dylib             0x000000018e417e3c thread_start + 8
+
+2024-12-30 20:10:48,320 - CRITICAL - Critical error occurred: Message: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression /html/body/div[1]/div[4]/main/react-app/div/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[4]/div/div/div[1]/div/div[1]/h3/div/div[2]/a')][1] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '/html/body/div[1]/div[4]/main/react-app/div/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[4]/div/div/div[1]/div/div[1]/h3/div/div[2]/a')][1]' is not a valid XPath expression."}
+  (Session info: chrome=131.0.6778.205); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+0   chromedriver                        0x0000000105573184 cxxbridge1$str$ptr + 3626716
+1   chromedriver                        0x000000010556b9d4 cxxbridge1$str$ptr + 3596076
+2   chromedriver                        0x0000000104fd8968 cxxbridge1$string$len + 89228
+3   chromedriver                        0x0000000104fdd84c cxxbridge1$string$len + 109424
+4   chromedriver                        0x0000000104fdf89c cxxbridge1$string$len + 117696
+5   chromedriver                        0x0000000104fdf944 cxxbridge1$string$len + 117864
+6   chromedriver                        0x000000010501ca94 cxxbridge1$string$len + 368056
+7   chromedriver                        0x00000001050565b4 cxxbridge1$string$len + 604376
+8   chromedriver                        0x0000000105011568 cxxbridge1$string$len + 321676
+9   chromedriver                        0x00000001050121b8 cxxbridge1$string$len + 324828
+10  chromedriver                        0x000000010553e9ac cxxbridge1$str$ptr + 3411716
+11  chromedriver                        0x0000000105541ccc cxxbridge1$str$ptr + 3424804
+12  chromedriver                        0x000000010552586c cxxbridge1$str$ptr + 3308996
+13  chromedriver                        0x000000010554258c cxxbridge1$str$ptr + 3427044
+14  chromedriver                        0x000000010551709c cxxbridge1$str$ptr + 3249652
+15  chromedriver                        0x000000010555c4b8 cxxbridge1$str$ptr + 3533328
+16  chromedriver                        0x000000010555c634 cxxbridge1$str$ptr + 3533708
+17  chromedriver                        0x000000010556b648 cxxbridge1$str$ptr + 3595168
+18  libsystem_pthread.dylib             0x000000018e41d034 _pthread_start + 136
+19  libsystem_pthread.dylib             0x000000018e417e3c thread_start + 8
+
+2024-12-30 20:10:48,406 - INFO - Closed the browser and ended the script.
+2024-12-30 20:11:24,853 - INFO - Initialized WebDriver and maximized the window.
+2024-12-30 20:11:27,366 - INFO - Opened GitHub homepage.
+2024-12-30 20:11:27,367 - INFO - Set implicit wait to 10 seconds.
+2024-12-30 20:11:27,387 - INFO - Search button is clickable.
+2024-12-30 20:11:27,432 - INFO - Searching for repositories with query: selenium
+2024-12-30 20:11:30,371 - INFO - Found element with fluent wait: 278k results
+ (196 ms)
+278k results
+2024-12-30 20:11:30,644 - INFO - Hovered over the first repository in the search results.
+2024-12-30 20:11:30,932 - INFO - Navigated to the GitHub signup page.
+2024-12-30 20:11:40,948 - ERROR - Error interacting with dropdown: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="signup-username-container"]"}
+  (Session info: chrome=131.0.6778.205); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010532f184 cxxbridge1$str$ptr + 3626716
+1   chromedriver                        0x00000001053279d4 cxxbridge1$str$ptr + 3596076
+2   chromedriver                        0x0000000104d94968 cxxbridge1$string$len + 89228
+3   chromedriver                        0x0000000104dd8d50 cxxbridge1$string$len + 368756
+4   chromedriver                        0x0000000104e125b4 cxxbridge1$string$len + 604376
+5   chromedriver                        0x0000000104dcd568 cxxbridge1$string$len + 321676
+6   chromedriver                        0x0000000104dce1b8 cxxbridge1$string$len + 324828
+7   chromedriver                        0x00000001052fa9ac cxxbridge1$str$ptr + 3411716
+8   chromedriver                        0x00000001052fdccc cxxbridge1$str$ptr + 3424804
+9   chromedriver                        0x00000001052e186c cxxbridge1$str$ptr + 3308996
+10  chromedriver                        0x00000001052fe58c cxxbridge1$str$ptr + 3427044
+11  chromedriver                        0x00000001052d309c cxxbridge1$str$ptr + 3249652
+12  chromedriver                        0x00000001053184b8 cxxbridge1$str$ptr + 3533328
+13  chromedriver                        0x0000000105318634 cxxbridge1$str$ptr + 3533708
+14  chromedriver                        0x0000000105327648 cxxbridge1$str$ptr + 3595168
+15  libsystem_pthread.dylib             0x000000018e41d034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018e417e3c thread_start + 8
+
+2024-12-30 20:11:40,950 - CRITICAL - Critical error occurred: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="signup-username-container"]"}
+  (Session info: chrome=131.0.6778.205); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010532f184 cxxbridge1$str$ptr + 3626716
+1   chromedriver                        0x00000001053279d4 cxxbridge1$str$ptr + 3596076
+2   chromedriver                        0x0000000104d94968 cxxbridge1$string$len + 89228
+3   chromedriver                        0x0000000104dd8d50 cxxbridge1$string$len + 368756
+4   chromedriver                        0x0000000104e125b4 cxxbridge1$string$len + 604376
+5   chromedriver                        0x0000000104dcd568 cxxbridge1$string$len + 321676
+6   chromedriver                        0x0000000104dce1b8 cxxbridge1$string$len + 324828
+7   chromedriver                        0x00000001052fa9ac cxxbridge1$str$ptr + 3411716
+8   chromedriver                        0x00000001052fdccc cxxbridge1$str$ptr + 3424804
+9   chromedriver                        0x00000001052e186c cxxbridge1$str$ptr + 3308996
+10  chromedriver                        0x00000001052fe58c cxxbridge1$str$ptr + 3427044
+11  chromedriver                        0x00000001052d309c cxxbridge1$str$ptr + 3249652
+12  chromedriver                        0x00000001053184b8 cxxbridge1$str$ptr + 3533328
+13  chromedriver                        0x0000000105318634 cxxbridge1$str$ptr + 3533708
+14  chromedriver                        0x0000000105327648 cxxbridge1$str$ptr + 3595168
+15  libsystem_pthread.dylib             0x000000018e41d034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018e417e3c thread_start + 8
+
+2024-12-30 20:11:41,058 - INFO - Closed the browser and ended the script.
