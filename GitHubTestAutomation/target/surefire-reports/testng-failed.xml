@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GitHub Test Suite]" verbose="0">
+  <test thread-count="5" name="GitHub Test(failed)" verbose="0">
+    <classes>
+      <class name="com.github.test.GitHubTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="searchGitHub"/>
+        </methods>
+      </class> <!-- com.github.test.GitHubTests -->
+    </classes>
+  </test> <!-- GitHub Test(failed) -->
+</suite> <!-- Failed suite [GitHub Test Suite] -->
